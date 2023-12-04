@@ -23,7 +23,7 @@ const Login = () => {
     setIsLoading(true);
     try {
       const result = await axios.post(
-        "http://localhost:8082/auth/login",
+        "https://e-commercebackend-sv7a.onrender.com/auth/login",
         form,
         { withCredentials: true }
       );

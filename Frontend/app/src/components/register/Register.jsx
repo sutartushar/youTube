@@ -27,7 +27,7 @@ const Register = () => {
     }
     try {
       const result = await axios.post(
-        "http://localhost:8082/auth/signup",
+        "https://e-commercebackend-sv7a.onrender.com/auth/signup",
         form
       );
       if (result.status === 200) {
